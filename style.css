@@ -1,0 +1,144 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: grey;
+}
+
+#container{
+  width: 700px;
+  height: 150px;
+  border: 8px solid red;
+  color: rgb(111, 19, 80);
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+ font-style: italic;
+ font-weight: bold;
+ font-size: 30px;
+ box-shadow: 10px 10px 2px  rgb(73, 2, 73);
+ text-shadow:  4px 4px 10px  rgb(81, 6, 81);;
+ margin: 33px auto;
+ padding-bottom: 8px;
+}
+
+#main-container{
+  height: 1100px;
+  border: 8px solid green;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.container-item-1,
+.container-item-2{
+  height: 600px;
+ 
+}
+
+#Address,
+#description
+{
+  height: 300px;
+  width: 450px;
+  margin: 15px;
+  padding-top: 80px;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(81, 6, 81);
+  border: 8px solid red;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 10px 10px 2px  rgb(81, 6, 81);
+ text-shadow:  4px 4px 10px  rgb(81, 6, 81);
+ float: left;
+}
+
+#image,
+#rating
+{
+  height: 300px;
+  width: 450px;
+  margin: 15px;
+  padding-top: 80px;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(81, 6, 81);
+  border: 8px solid red;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 10px 10px 2px  rgb(81, 6, 81);
+ text-shadow:  4px 4px 10px  rgb(81, 6, 81);
+ float: right;
+ margin-right: 80px;
+}
+input{
+  padding: 5px 5px;
+}
+
+.second-main-container{
+  width: 1500px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  border: 8px solid rgb(93, 25, 93);
+  background-color: rgb(29, 123, 29);
+ 
+}
+#container-one{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.items-box-1,
+.items-box-2
+
+{
+
+  border: 5px solid grey;
+  background-color: rgb(238, 249, 111);
+  width: 700px;
+  height: 350px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+ .para{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  
+ }
+ #main-box-2{
+  border: 5px solid grey;
+  background-color: rgb(238, 249, 111);
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  
+ }
+
+ #fix-box{
+  width: 800px;
+  height: 170px;
+  background-color: greenyellow;
+  border: 10px solid red;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  font-style: italic;
+  color: rgb(178, 8, 8);
+  position: fixed;
+  bottom: 40px;
+    left: 800px;
+ }
